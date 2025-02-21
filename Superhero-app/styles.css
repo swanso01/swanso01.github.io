@@ -1,0 +1,80 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+    background-color: #2c003e;
+    color: #ffffff;
+}
+
+header {
+    background-color: #4b0082;
+    color: #ff00ff;
+    padding: 1rem 0;
+    text-align: center;
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+}
+
+main {
+    padding: 2rem;
+}
+
+#search-section {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+#superhero-name {
+    padding: 0.5rem;
+    font-size: 1rem;
+    width: 300px;
+    border: 2px solid #ff00ff;
+    background-color: #4b0082;
+    color: #ffffff;
+    border-radius: 5px;
+}
+
+#search-button {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+    background-color: #ff00ff;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    margin-left: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+#search-button:hover {
+    background-color: #ff66ff;
+}
+
+#display-section {
+    text-align: center;
+}
+
+#superhero-details {
+    margin-top: 2rem;
+    background-color: #4b0082;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+#superhero-details img {
+    max-width: 200px;
+    height: auto;
+    border: 2px solid #ff00ff;
+    border-radius: 10px;
+}
+
+#superhero-details ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#superhero-details ul li {
+    margin: 0.5rem 0;
+    font-size: 1.1rem;
+}
