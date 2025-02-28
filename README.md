@@ -1,3 +1,4 @@
 # Josh Swanson Portfolio
-swanso01.github.io
-This project is a simple personal portfolio website I made.
+
+This project is a simple personal portfolio website I made!
+[Visit my Portfolio](https://swanso01.github.io/)
