@@ -1,0 +1,45 @@
+
+body {
+    background: #282828;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin: 0;
+    font-family: 'Press Start 2P', cursive;
+}
+
+#board {
+    border: 3px solid #fff;
+    background: linear-gradient(to bottom, #2a2a2a, #3e3e3e);
+    box-shadow: 0 0 15px rgba(125, 125, 125, 0.5);
+}
+
+.player {
+    background: #00c8ff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 200, 255, 0.7);
+}
+
+.ball {
+    background: radial-gradient(circle, #fff, #e0e0e0);
+    border-radius: 50%;
+    box-shadow: 0 0 10px #fff;
+}
+.game-over {
+    color: #ff3333;
+    font-size: 30px;
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+}
+
+.begin {
+    color: #fff;
+    font-size: 30px;
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
